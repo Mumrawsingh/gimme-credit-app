@@ -1,0 +1,2 @@
+class PromptChoicesController < ApplicationController
+end
