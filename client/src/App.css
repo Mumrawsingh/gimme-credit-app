@@ -139,8 +139,8 @@ body, html, #root, .app, .container {
   float:left;
   padding:5px;
   width: 30vmin;
-  text-emphasis-color: black;
-  text-shadow: 1px 1px forestgreen;
+  color: black;
+  text-shadow: 2px 2px forestgreen;
 
 }
 

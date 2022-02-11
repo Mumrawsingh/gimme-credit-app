@@ -1,7 +1,4 @@
-
 import React from "react";
-// import logo from './gimmecreditlogo.png';
-// import NavBar from "./NavBar";
 
 
 function Homepage() {

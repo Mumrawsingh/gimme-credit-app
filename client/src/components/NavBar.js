@@ -3,13 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
 
-    // const doLogOut = () => {
-    //     fetch("/logout", {
-    //       method: 'DELETE'
-    //     })
-    //     console.log('successful log out')
-    //     setUser(null)
-    //   }
+    
 
     return(
         <div className="navbar">
@@ -27,9 +21,10 @@ function NavBar() {
                         <h5 className='navLink'>
                             <NavLink to='/learn'>Learn</NavLink>
                             </h5>
-                        {/* <h5 className='navLink'>
-                            <NavLink>Stories</NavLink>
-                        </h5> */}
+
+                        <h5 className='navLink'>
+                            <NavLink to='/stories'>Stories</NavLink>
+                        </h5>
 
                         <br />
                         {/* <button 
