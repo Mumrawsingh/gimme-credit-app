@@ -4,55 +4,60 @@ import './App.css';
 import logo         from './gimmecreditlogo.png';
 import NavBar from './components/NavBar';
 
+
 function App() {
-        return (
-          <div className="app">
-              <div className='container'>
-              {/* <SubmitButton
-                  text={'Log Out'}
-                  disabled={false}
-                  onClick={ () => this.doLogout() }
-                /> */}
+  return (
+    <div className="app">
+        <div className='container'>
 
-                  <div>
-                    <header className="App-header">
-                      <img src={logo} className="App-logo" alt="logo" />
-                    </header>
-                  </div>
-                  <NavBar/>
-                  <Routing/>
-
-                <br></br>
-                <br></br>
-                <div
-                
-                // onClick={ 
-                  
-                //   () => {
-              
-                //     console.log("does this work?")
-
-                //   }
-                // }
-
-                >
-                  {/* <LoginForm /> */}
-                </div>
-                
-              </div>
+          <div>
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+            </header>
           </div>
-        );
+
+          <NavBar/>
+          <Routing/>
+
+          <br></br>
+          <br></br>
+        
+        </div>
+
+    </div>
+  );
 }
+ 
 
-  
+export default App;
 
-    // return (
+
+
+
+   // return (
     //   <div className="app">
     //      <header className="App-header">
     //         <img src={logo} className="App-logo" alt="logo" />
     //      </header>
     //   </div>
     // );
- 
 
-export default App;
+    // <div       
+    // // onClick={ 
+      
+    // //   () => {
+  
+    // //     console.log("does this work?")
+
+    // //   }
+    // // }
+
+    // >
+    //   {/* <LoginForm /> */}
+    // </div>
+
+    {/* <SubmitButton
+          text={'Log Out'}
+          disabled={false}
+          onClick={ () => this.doLogout() }
+        /> */}

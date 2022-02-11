@@ -2,6 +2,11 @@ import React from "react";
 
     function Logout() {
 
+        return(
+
+            <h1>Take care!</h1>
+        );
+
         // return(
 
         //         const doLogOut = (

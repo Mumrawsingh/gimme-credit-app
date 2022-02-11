@@ -10,14 +10,14 @@ function Routing() {
 
         <div>
             <Routes>
-
-                <Route path='/' element={<LoginForm />} />
                 
                 <Route path='/home' element={<Homepage />} />
                 
                 <Route path='/learn' element={< Learn/>} />
                 
                 <Route path='/stories' element={< Stories/>} />
+
+                <Route path='/' element={<LoginForm />} />
 
                 {/* <Route path='/' element={< />} /> */}
                 

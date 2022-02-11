@@ -123,6 +123,7 @@ body, html, #root, .app, .container {
 .navbar {
 
   position: fixed;
+  color: black;
   top: 0;
   left: 25vmin;
   text-align: center;
@@ -139,11 +140,47 @@ body, html, #root, .app, .container {
   float:left;
   padding:5px;
   width: 30vmin;
-  color: black;
   text-shadow: 2px 2px forestgreen;
 
 }
 
+/* .a {
+  color: black;
+} */
+
 /* Navbar */
 
 /* ################################################## */
+
+/* Hompage.js */
+
+.homepage {
+  text-align: center;
+}
+
+/* Hompage.js */
+
+/* ################################################## */
+
+
+
+/* Learn.js */
+
+.learn-nav {
+
+  color: red;
+  
+}
+
+.learn-nav-link {
+
+float: left;
+width: 30vmin;
+text-align:justify;
+
+}
+
+/* Learn.js */
+
+/* ################################################## */
+

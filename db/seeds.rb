@@ -10,9 +10,9 @@ puts "Seeding commenced"
 
 # User seeds
 
-user1 = User.create(username: 'mattu', password: "abzyJ+23")
-user2 = User.create(username: 'sirshiloh', password: "iLovemydad!")
-user3 = User.create(username: 'jordan23', password: "fkThemkids")
+user1 = User.create(username: 'mattu', password: "abzyJ+23", score: 680)
+user2 = User.create(username: 'sirshiloh', password: "iLovemydad!", score: 680)
+user3 = User.create(username: 'jordan23', password: "fkThemkids", score: 680)
 
 # prompt seeds
 
@@ -40,7 +40,7 @@ payment_history_choice = Choice.create(description: "red pill", img_url: "")
 payment_history_choice = Choice.create(description: "blue pill", img_url: "")
 
 #prompt_choice seeds
-# PromptChoice.create(user_id: user.id, prompt_id: prompt.id, choice_id: choice.id, name: "")
+# promptchoice = PromptChoice.create(user_id: user.id, prompt_id: prompt.id, choice_id: choice.id, name: "")
  
 
 puts "Seeding complete"

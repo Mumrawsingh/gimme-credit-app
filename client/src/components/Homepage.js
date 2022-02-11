@@ -7,19 +7,20 @@ function Homepage() {
 
         <p>
                 A one of a kind credit education experience... I think.
-            </p>
+        </p>
             created by 
-            <a
-                className="home-link"
-                href="https://mumrawsingh.github.io/Personal-Website-of-Matt/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Matthew S. Umrawsingh
-            </a>
-            <h5>
-                huge ego alert^
-            </h5>
+            <br></br>
+              <a
+                  className=""
+                  href="https://mumrawsingh.github.io/Personal-Website-of-Matt/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  Matthew S. Umrawsingh
+              </a>
+        <p>
+            huge ego alert^
+        </p>
         
       </div>
     );

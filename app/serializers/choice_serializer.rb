@@ -1,3 +1,3 @@
 class ChoiceSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :description, :img_url
 end
