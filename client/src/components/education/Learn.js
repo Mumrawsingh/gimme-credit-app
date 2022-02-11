@@ -2,9 +2,11 @@ import React from 'react';
 
 function Learn() {
 
-    <div className='learn'>
-        
-    </div>
+    return(
+        <div className='learn'>
+
+        </div>
+    );
 
 
 }
