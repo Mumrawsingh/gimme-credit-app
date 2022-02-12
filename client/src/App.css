@@ -43,10 +43,18 @@
 /* ################################################## */
 
 /* This is the CSS used for : Logo on Login page */
+
+.logo-container{
+
+  margin: 100px;
+}
+
 .App-logo {
+  margin-top: 100px;
+  top: 200px;
   height: 7vmin;
   width: 70vmin;
-  /* padding-right: 850px; */
+ 
   pointer-events: none;
  
 } 
@@ -140,7 +148,7 @@ body, html, #root, .app, .container {
   float:left;
   padding:5px;
   width: 30vmin;
-  text-shadow: 2px 2px forestgreen;
+  text-shadow: -2px 2px 2px forestgreen;
 
 }
 
@@ -163,24 +171,92 @@ body, html, #root, .app, .container {
 /* ################################################## */
 
 
-
 /* Learn.js */
 
-.learn-nav {
-
-  color: red;
+.learn{
   
+  width: 900px;
+  height: 250px;
+  padding: 10%;
+  margin-right: 20vmin;
+  border:3px solid black;
+  text-align: center;
+
 }
 
-.learn-nav-link {
+.learn:hover {
+  box-shadow: -1px -1px 10px 10px forestgreen;
+}
 
-float: left;
-width: 30vmin;
-text-align:justify;
+.learnlink1 {
+
+  width: 50vmin;
+  margin-left: 30vmin;
+  color: black;
+  border: 1px solid black;
+  text-shadow: -2px 2px 2px forestgreen;
 
 }
 
-/* Learn.js */
+.learnlink1:hover {
+  box-shadow: -1px -1px 10px 10px forestgreen;
+}
+
+.learnlink2 {
+
+  width: 50vmin;
+  margin-left: 30vmin;
+  border: 1px solid black;
+  color: black;
+  text-shadow: -2px 2px 2px forestgreen;
+
+}
+
+.learnlink2:hover {
+  box-shadow: -1px -1px 10px 10px forestgreen;
+}
+
+.learnlink3 {
+
+  width: 50vmin;
+  margin-left: 30vmin;
+  border: 1px solid black;
+  color: black;
+  text-shadow: -2px 2px 2px forestgreen;
+
+}
+
+.learnlink3:hover {
+  box-shadow: -1px -1px 10px 10px forestgreen;
+}
+
+.learnlink4 {
+
+  width: 50vmin;
+  margin-left: 30vmin;
+  border: 1px solid black;
+  color: black;
+  text-shadow: -2px 2px 2px forestgreen;
+
+}
+
+.learnlink4:hover {
+  box-shadow: -1px -1px 10px 10px forestgreen;
+}
+
+.learnlink5 {
+
+  width: 50vmin;
+  margin-left: 30vmin;
+  border: 1px solid black;
+  color: black;
+  text-shadow: -2px 2px 2px forestgreen;
+
+}
+
+.learnlink5:hover {
+  box-shadow: -1px -1px 10px 10px forestgreen;
+}
 
 /* ################################################## */
 

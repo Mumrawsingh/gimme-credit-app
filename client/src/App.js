@@ -10,7 +10,7 @@ function App() {
     <div className="app">
         <div className='container'>
 
-          <div>
+          <div className='logo-container'>
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
             </header>
