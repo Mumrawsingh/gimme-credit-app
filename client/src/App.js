@@ -1,8 +1,10 @@
 import React        from 'react';
-import Routing from './components/Routing';
+import Routing      from './components/Routing';
 import './App.css';
 import logo         from './gimmecreditlogo.png';
-import NavBar from './components/NavBar';
+import NavBar       from './components/NavBar';
+import CreditScore from './components/CreditScoreCounter/CreditScore';
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 
@@ -17,11 +19,10 @@ function App() {
             </header>
           </div>
 
-          {/* <CreditScore/> */}
+          <CreditScore/>
           <NavBar/>
           <Routing/>
 
-          <br></br>
           <br></br>
         
         </div>
