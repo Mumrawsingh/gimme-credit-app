@@ -1,4 +1,4 @@
-import React from "react";
+import React       from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
@@ -27,11 +27,6 @@ function NavBar() {
                         </h5>
 
                         <br />
-                        {/* <button 
-                            className="logout" 
-                            onClick={doLogOut}>
-                            Logout
-                        </button> */}
                     
                 </nav>
 
@@ -43,3 +38,18 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
+
+
+
+
+
+
+
+  {/* <button 
+        className="logout" 
+        onClick={doLogOut}>
+        Logout
+      </button> 
+*/}

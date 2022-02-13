@@ -1,4 +1,5 @@
-import React from 'react';
+import React       from 'react';
+import { NavLink } from "react-router-dom";
 // import LearnNav from './LearnNav';
 
 function Learn() {
@@ -8,23 +9,43 @@ function Learn() {
 
             <nav className='learn-nav'>
 
-                <div className='learnlink1'>Age of credit</div>
+                <div className='learnlink1'>
+                    <NavLink to='/learn/ageofcredit'>
+                        Age of credit
+                    </NavLink>
+                </div>
                
                 <br></br>
 
-                <div className='learnlink2'>Inquiries</div>
+                <div className='learnlink2'>
+                    <NavLink to='/learn/inquiries'>
+                        Inquiries
+                    </NavLink>  
+                </div>
                 
                 <br></br>
 
-                <div className='learnlink3'>Credit mix</div>
+                <div className='learnlink3'>
+                    <NavLink to='/learn/creditmix'>
+                        Credit mix
+                    </NavLink>    
+                </div>
 
                 <br></br>
                 
-                <div className='learnlink4'>Credit Usage</div>
+                <div className='learnlink4'>
+                    <NavLink to='/learn/creditusage'>
+                        Credit Usage
+                    </NavLink>     
+                </div>
                
                 <br></br>
                
-                <div className='learnlink5'>Payment History</div>
+                <div className='learnlink5'>
+                    <NavLink to='/learn/paymenthistory'>
+                        Payment History
+                    </NavLink>     
+                </div>
             
             </nav>
 
@@ -38,6 +59,8 @@ function Learn() {
 }
 
 export default Learn;
+
+
 
 
 // attempt to add LearnNav
