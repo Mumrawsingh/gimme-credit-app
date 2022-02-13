@@ -3,7 +3,7 @@ import Routing from './components/Routing';
 import './App.css';
 import logo         from './gimmecreditlogo.png';
 import NavBar from './components/NavBar';
-import CreditScore from './components/CreditScore';
+
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             </header>
           </div>
 
-          <CreditScore/>
+          {/* <CreditScore/> */}
           <NavBar/>
           <Routing/>
 
