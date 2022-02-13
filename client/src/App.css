@@ -1,6 +1,8 @@
-/* .App {
-  text-align: center;
-} */
+.app {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
 
 .App-logo {
   height: 7vmin;
@@ -9,36 +11,6 @@
   pointer-events: none;
  
 } 
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #e7e7e7;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #333535;
-} */
-
-/* .App-link {
-  color:green;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 /* ################################################## */
 
@@ -152,10 +124,6 @@ body, html, #root, .app, .container {
 
 }
 
-/* .a {
-  color: black;
-} */
-
 /* Navbar */
 
 /* ################################################## */
@@ -163,7 +131,16 @@ body, html, #root, .app, .container {
 /* Hompage.js */
 
 .homepage {
+  
+  width: 675px;
+  height: 275px;
+  padding: 10%;
+  margin-right: 20vmin;
+  border:3px solid black;
+  border-width: thick;
+  border-radius: 10% / 50%;
   text-align: center;
+
 }
 
 /* Hompage.js */
@@ -175,12 +152,15 @@ body, html, #root, .app, .container {
 
 .learn{
   
-  width: 900px;
-  height: 250px;
+  width: 675px;
+  height: 275px;
   padding: 10%;
   margin-right: 20vmin;
   border:3px solid black;
+  border-width: thick;
+  border-radius: 10% / 50%;
   text-align: center;
+  transition: 2s;
 
 }
 
@@ -191,14 +171,22 @@ body, html, #root, .app, .container {
 .learnlink1 {
 
   width: 50vmin;
-  margin-left: 30vmin;
+  margin-left: 10vmin;
   color: black;
   border: 1px solid black;
+  border-radius: 10%;
   text-shadow: -2px 2px 2px forestgreen;
+  /* transition: 0.5s; */
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 
 }
 
 .learnlink1:hover {
+  -webkit-transform: translateX(70px);
+  transform: translateX(70px);
   box-shadow: -1px -1px 10px 10px forestgreen;
 }
 
@@ -207,26 +195,42 @@ body, html, #root, .app, .container {
   width: 50vmin;
   margin-left: 30vmin;
   border: 1px solid black;
+  border-radius: 10%;
   color: black;
   text-shadow: -2px 2px 2px forestgreen;
+  /* transition: 0.5s; */
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 
 }
 
 .learnlink2:hover {
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
   box-shadow: -1px -1px 10px 10px forestgreen;
 }
 
 .learnlink3 {
 
   width: 50vmin;
-  margin-left: 30vmin;
+  margin-left: 10vmin;
   border: 1px solid black;
+  border-radius: 10%;
   color: black;
   text-shadow: -2px 2px 2px forestgreen;
+  /* transition: 0.5s; */
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 
 }
 
 .learnlink3:hover {
+  -webkit-transform: translateX(70px);
+  transform: translateX(70px);
   box-shadow: -1px -1px 10px 10px forestgreen;
 }
 
@@ -235,28 +239,99 @@ body, html, #root, .app, .container {
   width: 50vmin;
   margin-left: 30vmin;
   border: 1px solid black;
+  border-radius: 10%;
   color: black;
   text-shadow: -2px 2px 2px forestgreen;
+  /* transition: 0.5s; */
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 
 }
 
 .learnlink4:hover {
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
   box-shadow: -1px -1px 10px 10px forestgreen;
 }
 
 .learnlink5 {
 
   width: 50vmin;
-  margin-left: 30vmin;
+  margin-left: 10vmin;
   border: 1px solid black;
+  border-radius: 10%;
   color: black;
   text-shadow: -2px 2px 2px forestgreen;
+  /* transition: 0.5s; */
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 
 }
 
 .learnlink5:hover {
+  -webkit-transform: translateX(70px);
+  transform: translateX(70px);
   box-shadow: -1px -1px 10px 10px forestgreen;
 }
 
+/* Learn.js */
+
 /* ################################################## */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #e7e7e7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333535;
+} */
+
+/* .App-link {
+  color:green;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
