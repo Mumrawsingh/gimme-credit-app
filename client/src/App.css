@@ -12,6 +12,13 @@
  
 } 
 
+a{
+color: forestgreen;
+text-shadow: -2px 2px 2px black;
+}
+
+/* a:hover{} */
+
 /* ################################################## */
 
 /* This is the CSS used for : Logo on Login page */
@@ -120,7 +127,6 @@ body, html, #root, .app, .container {
   float:left;
   padding:5px;
   width: 30vmin;
-  text-shadow: -2px 2px 2px forestgreen;
 
 }
 
