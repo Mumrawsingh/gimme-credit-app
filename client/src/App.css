@@ -304,11 +304,19 @@ body, html, #root, .app, .container {
 .score-card{
   position: absolute;
   top: .1%;
-  left: 165vmin;
+  left: 145vmin;
+  width: 250px;
+  line-height: 140%;
 }
 
+.score-display{
+  position: absolute;
+  top: 0.5%;
+  left: 20vmin;
 
-.btn-btn-outline-primary{
+}
+
+/* .btn-btn-outline-primary{
 
   width: 50mvin;
 
@@ -318,7 +326,7 @@ body, html, #root, .app, .container {
 
 width: 50vmin;
 
-}
+} */
 
 
 

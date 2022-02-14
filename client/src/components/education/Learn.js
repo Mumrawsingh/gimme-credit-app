@@ -1,7 +1,7 @@
 import React       from 'react';
 import { NavLink } from "react-router-dom";
 // import LearnNav from './LearnNav';
-import CreditScore from '../CreditScoreCounter/CreditScore';
+// import CreditScore from '../CreditScoreCounter/CreditScore';
 
 function Learn() {
 
@@ -9,7 +9,7 @@ function Learn() {
 
         <div className='learn-container'>
 
-            <CreditScore/>
+            {/* <CreditScore/> */}
 
             <div className='learn'>
 

@@ -4,7 +4,11 @@ function Score({currentScore}){
 console.log(currentScore)
     return(
 
-        <h2>{`Your Gimme Credit score is: ${ currentScore}`}</h2>
+        <h4 className="score-card">Your Gimme Credit score is: 
+        
+            <h2 className="score-display">{ currentScore}</h2>
+        
+        </h4>
     );
 }
 

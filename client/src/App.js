@@ -5,8 +5,6 @@ import logo         from './gimmecreditlogo.png';
 import NavBar       from './components/NavBar';
 import Score        from './components/CreditScoreCounter/Score';
 import {useState}   from 'react'
-// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
 
 
 function App() {
