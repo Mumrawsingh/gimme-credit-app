@@ -10,9 +10,9 @@ function NavBar() {
             <header>
                 <nav>
                     
-                        <h5 className='navLink'>
+                        {/* <h5 className='navLink'>
                             <NavLink to='/'>Sign In</NavLink>
-                        </h5>
+                        </h5> */}
 
                         <h5 className='navLink'>
                             <NavLink to='/home'>Home</NavLink>

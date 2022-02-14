@@ -308,6 +308,17 @@ body, html, #root, .app, .container {
 }
 
 
+.btn-btn-outline-primary{
+
+  width: 50mvin;
+
+}
+
+.input-group-prepend{
+
+width: 50vmin;
+
+}
 
 
 

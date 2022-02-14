@@ -3,12 +3,17 @@ import Routing      from './components/Routing';
 import './App.css';
 import logo         from './gimmecreditlogo.png';
 import NavBar       from './components/NavBar';
-import CreditScore from './components/CreditScoreCounter/CreditScore';
+import Score        from './components/CreditScoreCounter/Score';
+import {useState}   from 'react'
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 
 function App() {
+
+    const [num, setNum] = useState(720)
+
+
   return (
     <div className="app">
         <div className='container'>
@@ -19,7 +24,9 @@ function App() {
             </header>
           </div>
 
-          <CreditScore/>
+          <Score
+            currentScore={num}
+          />
           <NavBar/>
           <Routing/>
 
