@@ -9,7 +9,7 @@ function Choice() {
 
             </div>
 
-            <div className='choice-cards'>
+            <div className='choice-two'>
 
             </div>
         </div>

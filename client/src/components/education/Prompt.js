@@ -1,19 +1,59 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react'
+// import Choice from './Choice';
 
 function Prompt() {
 
-    return(
+    const [PromptsArray, setPrompts] = useState([])
 
-        <div className=''>
-            
-            <div className=''>
+    useEffect( 
+        
+            ()=>{
 
-            </div>
+                fetch("/prompts", {
+                    mode: 'cors',
+                    headers: {'Access-Control-Allow-Origin':'*'}
+                })
+                .then( response => response.json() )
+                console.log("State of prompt fetch:")
+                .then(
+                (fetchedPromptsArray)=>{
+                setPrompts([...fetchedPromptsArray])
+                console.log("State of prompt fetch:", fetchedPromptsArray)
+                
+                    }
+                )
+            }
+    ,[])
+
+    return (
+        <div className="age-of-credit">  
+
+            <h1>Age Of Credit</h1>
+
+            {PromptsArray.map 
+                ( (aPrompt)=>{
+
+                        return (
+                            
+                            <div>
+                                <Prompt
+                                key={aPrompt.id}
+                                aPrompt={aPrompt}
+                                />
+                            </div>
+                        )
+                    }
+                )
+            }
 
         </div>
-
-    );
-
+    )
+  
 }
-
 export default Prompt;
+
+{/* <div className=''>
+
+<Choice/>
+
+</div> */}

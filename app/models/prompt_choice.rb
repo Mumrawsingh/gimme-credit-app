@@ -1,7 +1,7 @@
 class PromptChoice < ApplicationRecord
 
-    belongs_to :users
-    belongs_to :prompts
-    belongs_to :choices
+    belongs_to :user 
+    belongs_to :prompt
+    belongs_to :choice
 
 end
