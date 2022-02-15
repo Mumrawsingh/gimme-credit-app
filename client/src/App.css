@@ -350,6 +350,25 @@ body, html, #root, .app, .container {
 
 }
 
+/* CreditScore.js */
+
+/* ################################################## */
+
+/* Choice.js */
+
+.choice-cards {
+  color: black;
+  background-color: #61dafb;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+}
+
+/* Choice.js */
+
+/* ################################################## */
+
+
 /* .btn-btn-outline-primary{
 
   width: 50mvin;
