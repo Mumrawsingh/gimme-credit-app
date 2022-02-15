@@ -5,6 +5,7 @@
 }
 
 .App-logo {
+  
   height: 7vmin;
   width: 70vmin;
   /* padding-right: 850px; */
@@ -13,8 +14,8 @@
 } 
 
 a{
-color: forestgreen;
-text-shadow: -2px 2px 2px black;
+color: black;
+text-shadow: -2px 2px 2px forestgreen;
 }
 
 /* a:hover{} */
@@ -25,18 +26,16 @@ text-shadow: -2px 2px 2px black;
 
 .logo-container{
 
-  margin: 100px;
+  margin: 50px;
 }
 
-.App-logo {
-  margin-top: 100px;
+/* .App-logo {
+  margin-top: 50px;
   top: 200px;
-  height: 7vmin;
-  width: 70vmin;
  
   pointer-events: none;
  
-} 
+}  */
 /* This is the CSS used for : Logo on Login page */
 
 /* ################################################## */
@@ -112,10 +111,9 @@ body, html, #root, .app, .container {
   position: fixed;
   color: black;
   top: 0;
-  left: 25vmin;
+  left: 20%;
   text-align: center;
   background-color: none;
-  width: 100vw;
   z-index: 10;
   border-bottom: none;
 
@@ -137,12 +135,14 @@ body, html, #root, .app, .container {
 /* Hompage.js */
 
 .homepage {
+  /* position:absolute; */
   border:3px solid black;
   padding: 1%;
   width: 675px;
-  height: 275px;
+  height: 360px;
   margin-bottom: 5%;
   font-size: 2vmin;
+  font-weight: bold;
   border-radius: 10% / 50%; 
   border-width: thick;
   /* 
@@ -160,6 +160,15 @@ body, html, #root, .app, .container {
   padding-left: 6vmin;
 }
 
+.score-gif{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top:51%;
+  left:2%;
+  
+}
+
 /* Hompage.js */
 
 /* ################################################## */
@@ -169,14 +178,18 @@ body, html, #root, .app, .container {
 
 .learn{
   
-  width: 675px;
-  height: 275px;
+  position: absolute;
+  top:35%;
+  width: 8%;
+  height: 15%;
   padding: 10%;
-  margin-right: 20vmin;
+  right:70%;
+  /* margin-right: 25%;
+  margin-left: 5vmin; */
+  line-height: 100%;
   border:3px solid black;
   border-width: thick;
   border-radius: 10% / 50%;
-  text-align: center;
   transition: 2s;
 
 }
@@ -185,13 +198,22 @@ body, html, #root, .app, .container {
   box-shadow: -1px -1px 10px 10px forestgreen;
 }
 
-.learnlink1 {
+.learn-nav{
+  position: absolute;
+  line-height:250%;
+  top:2%;
+  right: 90%;
+}
 
-  width: 50vmin;
-  margin-left: 10vmin;
+.learnlink1 {
+  position:absolute;
+  width: 40vmin;
+  height: 5vmin;
+  /* margin-left: 1%; */
   color: black;
-  border: 1px solid black;
-  border-radius: 10%;
+  /* border: 1px solid black;
+  border-radius: 10%; */
+  text-align: center;
   text-shadow: -2px 2px 2px forestgreen;
   /* transition: 0.5s; */
   -webkit-transition-duration: 0.5s;
@@ -202,18 +224,21 @@ body, html, #root, .app, .container {
 }
 
 .learnlink1:hover {
-  -webkit-transform: translateX(70px);
-  transform: translateX(70px);
-  box-shadow: -1px -1px 10px 10px forestgreen;
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+  /* box-shadow: -1px -1px 10px 10px forestgreen; */
 }
 
 .learnlink2 {
 
-  width: 50vmin;
-  margin-left: 30vmin;
-  border: 1px solid black;
-  border-radius: 10%;
+  position:absolute;
+  width: 40vmin;
+  height: 5vmin;
+  /* margin-left: 30%; */
+  /* border: 1px solid black;
+  border-radius: 10%; */
   color: black;
+  text-align: center;
   text-shadow: -2px 2px 2px forestgreen;
   /* transition: 0.5s; */
   -webkit-transition-duration: 0.5s;
@@ -224,18 +249,21 @@ body, html, #root, .app, .container {
 }
 
 .learnlink2:hover {
-  -webkit-transform: translateX(-100px);
-  transform: translateX(-100px);
-  box-shadow: -1px -1px 10px 10px forestgreen;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  /* box-shadow: -1px -1px 10px 10px forestgreen; */
 }
 
 .learnlink3 {
 
-  width: 50vmin;
-  margin-left: 10vmin;
-  border: 1px solid black;
-  border-radius: 10%;
+  position:absolute;
+  width: 40vmin;
+  height: 5vmin;
+  /* margin-left: 1%; */
+  /* border: 1px solid black;
+  border-radius: 10%; */
   color: black;
+  text-align: center;
   text-shadow: -2px 2px 2px forestgreen;
   /* transition: 0.5s; */
   -webkit-transition-duration: 0.5s;
@@ -246,18 +274,21 @@ body, html, #root, .app, .container {
 }
 
 .learnlink3:hover {
-  -webkit-transform: translateX(70px);
-  transform: translateX(70px);
-  box-shadow: -1px -1px 10px 10px forestgreen;
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+  /* box-shadow: -1px -1px 10px 10px forestgreen; */
 }
 
 .learnlink4 {
 
-  width: 50vmin;
-  margin-left: 30vmin;
-  border: 1px solid black;
-  border-radius: 10%;
+  position:absolute;
+  width: 40vmin;
+  height: 5vmin;
+  /* margin-left: 30%; */
+  /* border: 1px solid black;
+  border-radius: 10%; */
   color: black;
+  text-align: center;
   text-shadow: -2px 2px 2px forestgreen;
   /* transition: 0.5s; */
   -webkit-transition-duration: 0.5s;
@@ -268,18 +299,21 @@ body, html, #root, .app, .container {
 }
 
 .learnlink4:hover {
-  -webkit-transform: translateX(-100px);
-  transform: translateX(-100px);
-  box-shadow: -1px -1px 10px 10px forestgreen;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  /* box-shadow: -1px -1px 10px 10px forestgreen; */
 }
 
 .learnlink5 {
 
-  width: 50vmin;
-  margin-left: 10vmin;
-  border: 1px solid black;
-  border-radius: 10%;
+  position:absolute;
+  width: 40vmin;
+  height: 5vmin;
+  /* margin-left: 1%; */
+  /* border: 1px solid black;
+  border-radius: 10%; */
   color: black;
+  text-align: center;
   text-shadow: -2px 2px 2px forestgreen;
   /* transition: 0.5s; */
   -webkit-transition-duration: 0.5s;
@@ -290,9 +324,9 @@ body, html, #root, .app, .container {
 }
 
 .learnlink5:hover {
-  -webkit-transform: translateX(70px);
-  transform: translateX(70px);
-  box-shadow: -1px -1px 10px 10px forestgreen;
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+  /* box-shadow: -1px -1px 10px 10px forestgreen; */
 }
 
 /* Learn.js */

@@ -9,7 +9,7 @@ import {useState}   from 'react'
 
 function App() {
 
-    const [num, setNum] = useState(720)
+    const [num, setNum] = useState(680)
 
 
   return (
@@ -42,8 +42,29 @@ export default App;
 
 
 
+// skeleton component
 
+// import React from 'react';
 
+// function () {
+
+//     return(
+
+//         <div className=''>
+//             <div className=''>
+
+//             </div>
+
+//             <div className=''>
+
+//             </div>
+//         </div>
+
+//     );
+
+// }
+
+// export default ;
 
 
 
