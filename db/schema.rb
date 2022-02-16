@@ -15,6 +15,8 @@ ActiveRecord::Schema.define(version: 2022_02_10_214126) do
   create_table "choices", force: :cascade do |t|
     t.string "description"
     t.string "img_url"
+    t.boolean "choice_type"
+    t.integer "prompt_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

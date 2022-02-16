@@ -1,15 +1,17 @@
-import React        from 'react';
+import React from 'react'
+import {useState, useEffect}  from 'react'
 import Routing      from './components/Routing';
 import './App.css';
 import logo         from './gimmecreditlogo.png';
 import NavBar       from './components/NavBar';
 import Score        from './components/CreditScoreCounter/Score';
-import {useState}   from 'react'
+
 
 
 function App() {
 
-    const [num, setNum] = useState(680)
+
+  const [num, setNum] = useState(680)
 
 
   return (
@@ -108,3 +110,57 @@ export default App;
           disabled={false}
           onClick={ () => this.doLogout() }
         /> */}
+
+
+
+
+
+
+        
+//     const [PromptsArray, setPrompts] = useState([])
+
+//     useEffect( 
+        
+//             ()=>{
+
+//                 fetch("/prompts", {
+//                     mode: 'cors',
+//                     headers: {'Access-Control-Allow-Origin':'*'}
+//                 })
+//                 .then( response => response.json() )
+//                 console.log("State of prompt fetch:")
+//                 .then(
+//                 (fetchedPromptsArray)=>{
+//                 setPrompts([...fetchedPromptsArray])
+//                 console.log("State of prompt fetch:", fetchedPromptsArray)
+                
+//                     }
+//                 )
+//             }
+//     ,[])
+
+//     return (
+//         <div className="age-of-credit">  
+
+//             <h1>Age Of Credit</h1>
+
+//             {PromptsArray.map 
+//                 ( (aPrompt)=>{
+
+//                         return (
+                            
+//                             <div>
+//                                 <Prompt
+//                                 key={aPrompt.id}
+//                                 aPrompt={aPrompt}
+//                                 />
+//                             </div>
+//                         )
+//                     }
+//                 )
+//             }
+
+//         </div>
+//     )
+  
+// }
