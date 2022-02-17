@@ -7,7 +7,7 @@ function NavBar() {
 
     return(
         <div className="navbar">
-            <header className="nav-header">
+            {/* <header className="nav-header"> */}
                 <nav>
                     
                         {/* <h5 className='navLink'>
@@ -32,7 +32,7 @@ function NavBar() {
 
               <br/><br/><br/> <br/><br/><br/><br/>
 
-            </header>
+            {/* </header> */}
         </div>
     );
 }

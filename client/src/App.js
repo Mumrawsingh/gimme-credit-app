@@ -1,10 +1,9 @@
 import React from 'react'
-import {useState, useEffect}  from 'react'
 import Routing      from './components/Routing';
 import './App.css';
 import logo         from './gimmecreditlogo.png';
 import NavBar       from './components/NavBar';
-import Score        from './components/CreditScoreCounter/Score';
+
 
 
 

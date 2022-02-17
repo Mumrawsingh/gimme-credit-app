@@ -1,14 +1,14 @@
-import { Routes, Route } from "react-router-dom";
-import Learn             from "./education/Learn";
-import Homepage          from "./Homepage";
-import LoginForm         from "./signin/LoginForm";
-import Stories           from "./stories/Stories";
+import { Routes, Route }     from "react-router-dom";
+import Learn                 from "./education/Learn";
+import Homepage              from "./Homepage";
+import LoginForm             from "./signin/LoginForm";
+import Stories               from "./stories/Stories";
 
-import AgeOfCredit       from "./education/AgeOfCredit";
-import Inquiries         from "./education/Inquiries"
-import CreditMix         from "./education/CreditMix"
-import CreditUsage       from "./education/CreditUsage"
-import PaymentHistory    from "./education/PaymentHistory"
+import AgeOfCredit           from "./education/AgeOfCredit";
+import Inquiries             from "./education/Inquiries"
+import CreditMix             from "./education/CreditMix"
+import CreditUsage           from "./education/CreditUsage"
+import PaymentHistory        from "./education/PaymentHistory"
 import {useState, useEffect} from 'react'
 
 function Routing() {
@@ -43,12 +43,20 @@ function Routing() {
                 
                 
                 <Route path='/learn/ageofcredit' element={<AgeOfCredit 
+                                                          passedPromptsArray ={promptsArray}
+                                                        />} />
+                <Route path='/learn/inquiries' element={<Inquiries 
                                                         passedPromptsArray ={promptsArray}
                                                         />} />
-                <Route path='/learn/inquiries' element={<Inquiries />} />
-                <Route path='/learn/creditmix' element={<CreditMix />} />
-                <Route path='/learn/creditusage' element={< CreditUsage/>} />
-                <Route path='/learn/paymenthistory' element={< PaymentHistory/>} />
+                <Route path='/learn/creditmix' element={<CreditMix 
+                                                        passedPromptsArray ={promptsArray}
+                                                        />} />
+                <Route path='/learn/creditusage' element={< CreditUsage
+                                                          passedPromptsArray ={promptsArray}
+                                                         />} />
+                <Route path='/learn/paymenthistory' element={< PaymentHistory
+                                                             passedPromptsArray ={promptsArray}
+                                                            />} />
 
                 <Route path='/learn' element={< Learn
                                                 // passedPromptsArray ={promptsArray}

@@ -1,9 +1,10 @@
-/* .app {
-  margin-left:auto;
-  margin-right:auto;
-  width:960px;
-  height: 960px;
-} */
+.app {
+  position: absolute;
+  margin:auto 10px;
+  width:auto;
+  height: 2000px;
+  background-color: lightgray;
+}
 
 .App-logo {
   
@@ -34,18 +35,13 @@ text-shadow: -2px 2px 2px forestgreen;
   /* margin: 50px; */
 }
 
-/* .App-logo {
-  margin-top: 50px;
-  top: 200px;
- 
-  pointer-events: none;
- 
-}  */
+
 /* This is the CSS used for : Logo on Login page */
 
 /* ################################################## */
 
 /* This is the CSS used for : Login page */
+
 body, html, #root, .app, .container {
   width: 100%;
   height: 100%;
@@ -59,7 +55,7 @@ body, html, #root, .app, .container {
   /* flex-direction: column; */
   /* align-items: center; */
   justify-content: center;
-  background-color: lightgray;
+  background-color: none;
 }
 
 .loginForm {
@@ -119,6 +115,7 @@ body, html, #root, .app, .container {
   color: black;
   top: 10%;
   left: 21%;
+  height: 15%;
   text-align: center;
   background-color: none;
   z-index: 10;
@@ -134,6 +131,7 @@ body, html, #root, .app, .container {
   width: 30vmin;
 
 }
+
 
 /* Navbar */
 
@@ -352,24 +350,32 @@ body, html, #root, .app, .container {
 
 
 
-.aoc-lesson-title{
+.lesson-title{
  
   padding-top: 20%;
   padding-left: 16%;
   padding-bottom: 0%;
 }
 
-.age-of-credit-lesson{
+.lesson{
+  position: absolute;
   width: 500px;
   height: 125px;
-  font-size: 2vmin;
+  top: 40%;
+  left: 3%;
+  font-size: medium;
   font-weight:normal;
-  padding: 10%;
+  padding: 0%;
 }
 
 .prompt-section{
-  padding: 10%;
+  position:relative;
+  top: -60px;
+  right: -40%;
+  padding: 0%;
+  padding-bottom: 2%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 2px solid transparent;
 }
 .age-of-credit-prompt{
 
@@ -399,8 +405,8 @@ body, html, #root, .app, .container {
 
 .score-card{
   position: absolute;
-  top: .1%;
-  left: 145vmin;
+  top: -50%;
+  right:0%;
   width: 250px;
   line-height: 140%;
 }
@@ -419,13 +425,13 @@ body, html, #root, .app, .container {
 
 /* Choice.js */
 
-.choice-cards {
+/* .choice-cards {
   color: black;
   background-color: #61dafb;
   padding: 10px;
   margin: 20px;
   float: left;
-}
+} */
 
 /* Choice.js */
 

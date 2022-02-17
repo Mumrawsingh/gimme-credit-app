@@ -1,6 +1,6 @@
 import React  from "react";
 import NavBar from "./NavBar";
-// import logo   from './gimmecreditlogo.png';
+import logo   from './gimmecreditlogo.png';
 
 function Header(){
 
