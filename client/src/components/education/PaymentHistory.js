@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import NavBar from '../NavBar';
 import Score             from '../CreditScoreCounter/Score'
 
 function PaymentHistory(props){
@@ -28,6 +29,9 @@ function PaymentHistory(props){
 
     return (
         <div className="payment-history">    
+
+            <div className="ed-component-navbar"><NavBar/></div>
+
             <h1 className='lesson-title'>Payment History</h1>
             <p className='lesson'>
             Payment history is the most important ingredient in credit scoring, and even one missed payment can have a

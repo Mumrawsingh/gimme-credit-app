@@ -1,33 +1,19 @@
-import React, {useState} from 'react';
-import NavBar            from '../NavBar';
+import React from 'react';
 
-function SubmitButton(props){
+
+function SubmitButton(){
 
     
-    const [showJoobly, setShowJoobly] = useState(false)
-        console.log("state of show", showJoobly)
-
+    
     return (
         <div className="submitButton">
             
             <button
                 className='btn'
-               
-                onClick={ 
-                    
-                    () => {
-                        console.log("Joobly")
-                        setShowJoobly(!showJoobly)
-                    } 
-                }  
-            >
-                {props.text}
-            </button>
+            >Log in</button>
          
             <br></br><br></br>
-                {!showJoobly ? <NavBar/> : null}
-
-            
+               
 
         </div>
 
@@ -36,6 +22,55 @@ function SubmitButton(props){
 }
 
 export default SubmitButton;
+
+
+
+// The following function, toggles the navbar in and out of the page. used for testing the submit button.
+
+// import React, {useState} from 'react';
+// import NavBar            from '../NavBar';
+
+// function SubmitButton(props){
+
+    
+//     const [showJoobly, setShowJoobly] = useState(false)
+//         console.log("state of show", showJoobly)
+
+//     return (
+//         <div className="submitButton">
+            
+//             <button
+//                 className='btn'
+               
+//                 onClick={ 
+                    
+//                     () => {
+//                         console.log("Joobly")
+//                         setShowJoobly(!showJoobly)
+//                     } 
+//                 }  
+//             >
+//                 {props.text}
+//             </button>
+         
+//             <br></br><br></br>
+//                 {!showJoobly ? <NavBar/> : null}
+
+            
+
+//         </div>
+
+        
+//     );
+// }
+
+///////////////////////////////
+
+
+
+
+
+
 
 // OBJECTIVE //
 

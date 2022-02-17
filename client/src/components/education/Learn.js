@@ -1,4 +1,5 @@
 import React       from 'react';
+import NavBar from '../NavBar';
 import { NavLink } from "react-router-dom";
 // import LearnNav from './LearnNav';
 // import CreditScore from '../CreditScoreCounter/CreditScore';
@@ -9,8 +10,9 @@ function Learn(props) {
     // console.log("Passed props :", props.passedPromptsArray)
 
     return(
-
+            
     <div className='learn-container'>
+        <div className='learnNavbar'><NavBar/></div>
 
         {/* {props.passedPromptsArray.map 
             ( (aPrompt)=>{

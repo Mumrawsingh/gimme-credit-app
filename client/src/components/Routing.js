@@ -61,12 +61,26 @@ function Routing() {
                 <Route path='/learn' element={< Learn
                                                 // passedPromptsArray ={promptsArray}
                                              />} />
+
                 <Route path='/stories' element={< Stories/>} />
                 <Route path='/home' element={<Homepage />} />
+
+                {/* <Route path='/home' element={<Homepage />} /> */}
+
                 <Route path='/' element={<LoginForm />} />
 
+                    {/* New Route code */}
                 {/* <Route path='/' element={< />} /> */}
                 
+
+
+
+
+
+
+
+
+
                 {/* <Route path='/woobly' element={<h1>woobly</h1>} /> */}
 
                 

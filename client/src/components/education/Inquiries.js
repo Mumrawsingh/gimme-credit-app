@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import NavBar from '../NavBar';
 import Score             from '../CreditScoreCounter/Score'
 
 function Inquiries(props){
@@ -26,6 +27,9 @@ function Inquiries(props){
 
     return (
         <div className="inquiries">    
+
+            <div className="ed-component-navbar"><NavBar/></div>
+
                     <h1 className='lesson-title'>Inquiries</h1>
                     <p className='lesson'>
                     Inquiries occur when folks open new credit accounts. In addition to new accounts, The amount of 

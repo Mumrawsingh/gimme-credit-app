@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import NavBar from '../NavBar';
 import Score             from '../CreditScoreCounter/Score'
 
 function CreditMix(props){
@@ -28,6 +29,9 @@ function CreditMix(props){
 
     return (
         <div className="credit-mix">    
+
+            <div className="ed-component-navbar"><NavBar/></div>
+
                     <h1 className='lesson-title'>Credit Mix</h1>
                     <p className='lesson'>
                     Credit mix accounts for 10% of a FICO® Score. Credit Mix is having a variety of

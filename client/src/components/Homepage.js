@@ -1,12 +1,15 @@
 import React from "react";
+import NavBar from "./NavBar";
 import logo from "../dancingscore.gif";
 
 
 
 function Homepage() {
     return (
-
+          
+          
       <div className="homepage">
+            <div className="home-navbar"><NavBar/></div>
 
         <h2 className="welcome">Welcome!</h2>
         <p className="rules">You have been assigned a mock credit score of 680.

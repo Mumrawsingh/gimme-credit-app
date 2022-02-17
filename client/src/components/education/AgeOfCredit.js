@@ -1,9 +1,6 @@
 import React, {useState} from 'react'
+import NavBar from '../NavBar';
 import Score             from '../CreditScoreCounter/Score'
-// import Prompt from "./Prompt";
-
-
-
 
 
 function AgeOfCredit(props){
@@ -38,6 +35,8 @@ function AgeOfCredit(props){
 
     return (
         <div className="age-of-credit">  
+
+            <div className="ed-component-navbar"><NavBar/></div>
 
                     <h1 className='lesson-title'>Age Of Credit</h1>
                     <br></br>
@@ -106,7 +105,7 @@ function AgeOfCredit(props){
             }
 
                 
-         </div>
+        </div>
     )
   
 }

@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import NavBar from '../NavBar';
 import Score             from '../CreditScoreCounter/Score'
 
 function CreditUsage(props){
@@ -28,6 +29,9 @@ function CreditUsage(props){
 
     return (
         <div className="credit-usage">    
+
+            <div className="ed-component-navbar"><NavBar/></div>
+
             <h1 className='lesson-title'>Credit Usage</h1>
             <p className='lesson'>
             Credit usage is calculated by looking at the "credit utilization ratio". It's
@@ -39,7 +43,7 @@ function CreditUsage(props){
             most important factor in a credit score after payment history. 
             </p>
 
-             {props.passedPromptsArray.map 
+            {props.passedPromptsArray.map 
                 ((aPrompt)=>{
                         console.log("aPrompt:", aPrompt)
                         return (

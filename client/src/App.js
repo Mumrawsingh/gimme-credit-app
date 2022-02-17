@@ -2,8 +2,9 @@ import React from 'react'
 import Routing      from './components/Routing';
 import './App.css';
 import logo         from './gimmecreditlogo.png';
-import NavBar       from './components/NavBar';
+// import NavBar       from './components/NavBar';
 
+// comment in <Navbar/> in App.js to show Navbar site-wide. Comment out in all other components.
 
 
 
@@ -19,7 +20,7 @@ function App() {
             </header>
           </div>
 
-          <NavBar/>
+          {/* <NavBar/> */}
           <Routing/>
 
           <br></br>
