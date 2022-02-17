@@ -7,7 +7,7 @@ function NavBar() {
 
     return(
         <div className="navbar">
-            <header>
+            <header className="nav-header">
                 <nav>
                     
                         {/* <h5 className='navLink'>

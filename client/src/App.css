@@ -213,7 +213,6 @@ body, html, #root, .app, .container {
   top:45%;
   left:35%;
   font-size: large;
-  font-weight: bold;
 }
 
 .learn:hover {
@@ -409,8 +408,8 @@ body, html, #root, .app, .container {
 .score-display{
   position: absolute;
   top: 7%;
-  left: 20vmin;
-  color: orangered;
+  right: -30%;
+  color: forestgreen;
 
 }
 

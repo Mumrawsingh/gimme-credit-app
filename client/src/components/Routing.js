@@ -51,7 +51,7 @@ function Routing() {
                 <Route path='/learn/paymenthistory' element={< PaymentHistory/>} />
 
                 <Route path='/learn' element={< Learn
-                                                passedPromptsArray ={promptsArray}
+                                                // passedPromptsArray ={promptsArray}
                                              />} />
                 <Route path='/stories' element={< Stories/>} />
                 <Route path='/home' element={<Homepage />} />

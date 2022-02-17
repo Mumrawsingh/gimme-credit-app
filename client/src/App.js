@@ -10,10 +10,6 @@ import Score        from './components/CreditScoreCounter/Score';
 
 function App() {
 
-
-  const [num, setNum] = useState(680)
-
-
   return (
     <div className="app">
         <div className='container'>
@@ -24,9 +20,6 @@ function App() {
             </header>
           </div>
 
-          <Score
-            currentScore={num}
-          />
           <NavBar/>
           <Routing/>
 
@@ -44,7 +37,7 @@ export default App;
 
 
 
-// skeleton component
+// skeleton component.
 
 // import React from 'react';
 
@@ -68,7 +61,7 @@ export default App;
 
 // export default ;
 
-
+// skeleton component 2.
 
 // function (){
 
@@ -82,6 +75,7 @@ export default App;
 
 // export default ;
 
+//app logo code.
 
    // return (
     //   <div className="app">
@@ -90,6 +84,8 @@ export default App;
     //      </header>
     //   </div>
     // );
+
+    //idk what the following code was.
 
     // <div       
     // // onClick={ 

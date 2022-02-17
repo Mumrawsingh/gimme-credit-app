@@ -1,16 +1,42 @@
+import { Button } from 'bootstrap'
 import React, {useState, useEffect} from 'react'
 import Score from '../CreditScoreCounter/Score'
-
 // import Prompt from "./Prompt";
+
+
+
+
 
 function AgeOfCredit(props){
 
-    const [num, setNum] = useState(680)
 
-    console.log("props passed to Age of Credit:",props)
-    console.log("props passed to Age of Credit:",props.passedPromptsArray[0])
-    console.log("choice boolean", props.passedPromptsArray[1].value)
+    const [currentScore, setCurrentScore] = useState(680)
+
+    const incScore =()=>{
+
+        if(currentScore < 730) {
+    
+            setCurrentScore((Number(currentScore)+10));
+    
+        }
+      };
+    
+      const decScore = ()=>{
+    
+         if(currentScore > 630) {
+    
+            setCurrentScore((currentScore - 10));
+    
+         }
+    
+      }
+
+    // console.log("props passed to Age of Credit:", props)
+    console.log("props passed to Age of Credit 2:", props.passedPromptsArray)
+    // console.log("choice boolean", props.passedPromptsArray[1].value)
   
+
+
     return (
         <div className="age-of-credit">  
 
@@ -41,6 +67,11 @@ function AgeOfCredit(props){
             return (
                     
                     <div className='prompt-section'>
+
+                        <Score
+                        currentCreditScore={currentScore}
+                        />
+
                     <h4>{aPrompt.description}</h4>
                     
                         {aPrompt.choices.map (
@@ -49,14 +80,11 @@ function AgeOfCredit(props){
                                     return (
                                         <div className='age-of-credit-prompt'>
                                             
+                                            <button onClick={incScore}>good</button>
                                             
                                             <p>{mappedChoices.description}</p>
-                                            <button
-                                            //     onClick{ ()=>{
-                                            //         setIncScore(!incScore)
-                                            //     } 
-                                            // }
-                                            >My Choice ^</button>
+
+                                            <button onClick={decScore}>bad</button>
 
                                         </div>
                                     )
@@ -65,6 +93,9 @@ function AgeOfCredit(props){
                             
                         }
 
+                        <Score
+                        currentCreditScore={currentScore}
+                        />
                         
                     </div>
                 )
@@ -100,3 +131,7 @@ Please be advised that they should verify that this account must be in good stan
 adding you, as an inconsistent payment history could hurt the FICO score of anyone associated, 
 with the account, regardless of who the owner is.
 </p> */}
+
+// const handleChange = (e)=>{
+//     setNum(e.target.value);
+//    }
