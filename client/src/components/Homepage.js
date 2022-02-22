@@ -31,6 +31,7 @@ function Homepage() {
         </p>
 
         <img src={logo} className="score-gif" alt="gif" />
+        <img src={logo} className="score-gif-two" alt="gif" />
         
       </div>
       

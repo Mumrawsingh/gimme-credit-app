@@ -65,7 +65,6 @@ function Routing() {
                 <Route path='/stories' element={< Stories/>} />
                 <Route path='/home' element={<Homepage />} />
 
-                {/* <Route path='/home' element={<Homepage />} /> */}
 
                 <Route path='/' element={<LoginForm />} />
 

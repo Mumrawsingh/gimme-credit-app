@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 
 function SubmitButton(){
@@ -8,9 +9,8 @@ function SubmitButton(){
     return (
         <div className="submitButton">
             
-            <button
-                className='btn'
-            >Log in</button>
+            <button 
+            className='btn'> <NavLink to='/home'>Log in</NavLink></button>
          
             <br></br><br></br>
                

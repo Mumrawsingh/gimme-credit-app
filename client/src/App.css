@@ -230,8 +230,8 @@ body, html, #root, .app, .container {
 
 .rules{
   padding-left: 6vmin;
-  line-height: 200%;
-  font-size: 2vmin;
+  line-height: 175%;
+  font-size: 56%;
   font-weight: bold;
 }
 
@@ -241,6 +241,15 @@ body, html, #root, .app, .container {
   height: 35%;
   top:40%;
   left: -38%;
+  
+}
+
+.score-gif-two{
+  position: absolute;
+  width: 35%;
+  height: 35%;
+  top:40%;
+  right:-43%;
   
 }
 
@@ -283,9 +292,11 @@ body, html, #root, .app, .container {
 
 .learn-instruct{
   position: absolute;
-  top:45%;
-  left:35%;
-  font-size: large;
+  top:37%;
+  left:38%;
+  width: 40%;
+  font-size: 70%;
+  font-weight: bold;
 }
 
 .learn:hover {
@@ -438,8 +449,8 @@ body, html, #root, .app, .container {
   height: 125px;
   top: 40%;
   left: 3%;
-  font-size: medium;
-  font-weight:normal;
+  font-size: 56%;
+  font-weight: bold;
   padding: 0%;
 }
 

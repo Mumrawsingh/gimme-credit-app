@@ -26,6 +26,8 @@ function CreditUsage(props){
     
       }
 
+      const aPrompt = props.passedPromptsArray[3]
+            console.log("aPrompt Result :",aPrompt)
 
     return (
         <div className="credit-usage">    
@@ -43,10 +45,10 @@ function CreditUsage(props){
             most important factor in a credit score after payment history. 
             </p>
 
-            {props.passedPromptsArray.map 
+            {/* {props.passedPromptsArray.map 
                 ((aPrompt)=>{
                         console.log("aPrompt:", aPrompt)
-                        return (
+                        return ( */}
                                 
                             <div className='prompt-section'>
 
@@ -83,10 +85,10 @@ function CreditUsage(props){
                                 />
                                 
                             </div>
-                        )
+            {/*         )
                     }
                 )
-            }
+             } */}
 
         </div>
     )

@@ -26,6 +26,8 @@ function PaymentHistory(props){
     
       }
 
+      const aPrompt = props.passedPromptsArray[4]
+      console.log("aPrompt Result :",aPrompt)
 
     return (
         <div className="payment-history">    
@@ -40,10 +42,10 @@ function PaymentHistory(props){
             {/* Re-write this^6 */}
             </p>
 
-            {props.passedPromptsArray.map 
+            {/* {props.passedPromptsArray.map 
                 ((aPrompt)=>{
                         console.log("aPrompt:", aPrompt)
-                        return (
+                        return ( */}
                                 
                                 <div className='prompt-section'>
 
@@ -80,10 +82,10 @@ function PaymentHistory(props){
                                     />
                                     
                                 </div>
-                        )
+                        {/* )
                     }
                 )
-            }
+            } */}
 
         </div>
     )

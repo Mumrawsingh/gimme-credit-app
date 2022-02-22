@@ -31,7 +31,8 @@ function AgeOfCredit(props){
         console.log("props passed to Age of Credit 2:", props.passedPromptsArray)
         // console.log("choice boolean", props.passedPromptsArray[1].value)
     
-
+        const aPrompt = props.passedPromptsArray[0]
+            console.log("aPrompt Result :",aPrompt)
 
     return (
         <div className="age-of-credit">  
@@ -59,10 +60,11 @@ function AgeOfCredit(props){
                     </p>
 
 
-            {props.passedPromptsArray.map 
-                ((aPrompt)=>{
+            {/* {props.passedPromptsArray.map 
+                (
+                    (aPrompt)=>{
                         console.log("aPrompt:", aPrompt)
-                        return (
+                        return ( */}
                                                 
                             <div className='prompt-section'>
 
@@ -87,7 +89,7 @@ function AgeOfCredit(props){
                                                     <button onClick={decScore}>My Choice ^</button>                                          
                                                     }
 
-                                                    </div>
+                                                    </div> 
                                                 )
                                             }
                                         )
@@ -98,11 +100,11 @@ function AgeOfCredit(props){
                                     currentCreditScore={currentScore}
                                     />
                                 
-                            </div>
-                        )
+                            </div> 
+                        {/* )
                     }
                 )
-            }
+            } */}
 
                 
         </div>

@@ -25,6 +25,9 @@ function Inquiries(props){
     
       }
 
+      const aPrompt = props.passedPromptsArray[1]
+            console.log("aPrompt Result :",aPrompt)
+
     return (
         <div className="inquiries">    
 
@@ -38,10 +41,10 @@ function Inquiries(props){
                     risk and such can hurt credit scores as a result.
                     </p>
                 
-            {props.passedPromptsArray.map 
+            {/* {props.passedPromptsArray.map 
                 ((aPrompt)=>{
                         console.log("aPrompt:", aPrompt)
-                        return (
+                        return ( */}
                                 
                             <div className='prompt-section'>
 
@@ -78,10 +81,10 @@ function Inquiries(props){
                                     />
                                     
                             </div>
-                        )
+                        {/* )
                     }
                 )
-            }
+            } */}
                 
         </div>
     )

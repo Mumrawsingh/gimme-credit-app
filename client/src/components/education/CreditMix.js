@@ -26,6 +26,8 @@ function CreditMix(props){
     
       }
 
+      const aPrompt = props.passedPromptsArray[2]
+            console.log("aPrompt Result :",aPrompt)
 
     return (
         <div className="credit-mix">    
@@ -42,10 +44,10 @@ function CreditMix(props){
                     with folks that have good credit scores. 
                     </p>
 
-            {props.passedPromptsArray.map 
+            {/* {props.passedPromptsArray.map 
                 ((aPrompt)=>{
                     console.log("aPrompt:", aPrompt)
-                    return (
+                    return ( */}
                             
                             <div className='prompt-section'>
 
@@ -82,10 +84,10 @@ function CreditMix(props){
                                 />
                                 
                             </div>
-                        )
+                        {/* )
                     }
                 )
-            }
+            } */}
 
         </div>
     )
