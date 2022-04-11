@@ -20,19 +20,19 @@ function Routing() {
 
     useEffect( 
         
-                  ()=>{
-      
-                      fetch("http://127.0.0.1:3000/prompts")                     
-                      .then( response => response.json() )
-                      .then(
-                        (fetchedPromptsArray)=>{
-                        setPrompts([...fetchedPromptsArray])
-                        console.log("State of prompt fetch:", fetchedPromptsArray)
-                        
-                            }
-                      )
-                  }
-          ,[])
+            ()=>{
+
+                fetch("http://127.0.0.1:3000/prompts")                     
+                .then( response => response.json() )
+                .then(
+                (fetchedPromptsArray)=>{
+                setPrompts([...fetchedPromptsArray])
+                console.log("State of prompt fetch:", fetchedPromptsArray)
+                
+                    }
+                )
+            }
+        ,[])
 
 
 
@@ -41,48 +41,29 @@ function Routing() {
         <div>
             <Routes>
                 
-                
-                <Route path='/learn/ageofcredit' element={<AgeOfCredit 
+                <Route path='/learn/ageofcredit'    element={<AgeOfCredit 
                                                           passedPromptsArray ={promptsArray}
                                                         />} />
-                <Route path='/learn/inquiries' element={<Inquiries 
+                <Route path='/learn/inquiries'      element={<Inquiries 
                                                         passedPromptsArray ={promptsArray}
                                                         />} />
-                <Route path='/learn/creditmix' element={<CreditMix 
+                <Route path='/learn/creditmix'      element={<CreditMix 
                                                         passedPromptsArray ={promptsArray}
                                                         />} />
-                <Route path='/learn/creditusage' element={< CreditUsage
+                <Route path='/learn/creditusage'    element={< CreditUsage
                                                           passedPromptsArray ={promptsArray}
                                                          />} />
                 <Route path='/learn/paymenthistory' element={< PaymentHistory
                                                              passedPromptsArray ={promptsArray}
                                                             />} />
 
-                <Route path='/learn' element={< Learn
-                                                // passedPromptsArray ={promptsArray}
-                                             />} />
+                <Route path='/learn'                element={< Learn
+                                                    // passedPromptsArray ={promptsArray}
+                                                            />} />
 
-                <Route path='/stories' element={< Stories/>} />
-                <Route path='/home' element={<Homepage />} />
-
-
-                <Route path='/' element={<LoginForm />} />
-
-                    {/* New Route code */}
-                {/* <Route path='/' element={< />} /> */}
-                
-
-
-
-
-
-
-
-
-
-                {/* <Route path='/woobly' element={<h1>woobly</h1>} /> */}
-
-                
+                <Route path='/stories'              element={< Stories/>} />
+                <Route path='/home'                 element={<Homepage />} />
+                <Route path='/'                     element={<LoginForm />} />
 
             </Routes>
         </div>
@@ -92,3 +73,10 @@ function Routing() {
 }
 
 export default Routing;
+
+
+
+
+{/* New Route code */}
+{/* <Route path='/' element={< />} /> */}
+{/* <Route path='/woobly' element={<h1>woobly</h1>} /> */}
